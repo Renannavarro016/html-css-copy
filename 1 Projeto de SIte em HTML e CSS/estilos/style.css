@@ -99,7 +99,7 @@ header h2 {
 .menu li ul li {
     border: 0px solid #24153F;
     display: block;
-    width: 140px;
+    width: auto;
 }
 
 nav {
