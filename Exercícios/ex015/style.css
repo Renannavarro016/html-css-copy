@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body { 
+    background-color: rgb(9, 5, 31);
+    color: rgb(199, 195, 233);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(182, 182, 182);
+    background-size: contain;
+}
+
+h1{
+    color: rgb(160, 160, 202);
+    background-color: rgb(55, 58, 88);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px 10px 0px;
+}
+h2 {
+    color: rgb(125, 135, 165);
+}
+
+p {
+    color: aliceblue;
+    background-color: rgb(55, 58, 88);
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px 20px 0px;
+}

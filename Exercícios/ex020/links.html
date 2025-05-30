@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /* 
+            Seletores Personalizados
+            #  = id
+            .  = classe
+            :  = pseudo-class
+            :: = pseudo-elements
+            >  = filho direto
+            +  = irmão direto
+            ~  = irmão
+            :hover             = quando o mouse passa por cima
+            :active            = quando o elemento é clicado
+            :focus             = quando o elemento é selecionado
+            :visited           = quando o link já foi visitado
+            :link              = quando o link não foi visitado
+            :not               = quando o elemento não é o selecionado
+            :before            = antes do elemento
+            :after             = depois do elemento
+            :first-letter      = primeira letra do elemento
+            :first-line        = primeira linha do elemento
+            :placeholder-shown = quando o placeholder é exibido
+            :checked           = quando o elemento é selecionado
+            :disabled          = quando o elemento está desabilitado
+        */
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        a:link {
+            color: rgb(5, 5, 189);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(3, 129, 98);
+        }
+
+        .especial {
+            background-color: rgba(1, 50, 211, 0.322);
+            color: rgb(0, 0, 0);
+        }
+
+        .especial::before {
+            content: ' ⇀';
+            font-weight: normal;
+            color: rgb(20, 20, 20);
+        }
+
+        .especial::after {
+            content: ' ↼';
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+     <ul>
+        <li><a href="https://pt.aliexpress.com/?spm=a2g0o.ae-error.0.0.5468697drLCrrP&gatewayAdapt=glo2bra" target="_blank">Site de compras</a></li>
+        <li><a href="https://www.youtube.com/@Renanzzin" class="especial" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@stlmbr" class="especial" target="_blank">Perfil do Tiktok</a></li>
+     </ul>
+</body>
+</html>

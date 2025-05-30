@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: azure;
+            box-shadow: 0px 0px 10px black;
+        }
+
+        header {
+            background-color: darkslategray;
+            color: white;
+            padding: 2px;
+            margin: 5px;
+            border-radius: 5px;
+            box-shadow: 5px 1px 1px 1px black;
+        }
+
+        main {
+            background-color: lightyellow;
+           
+            border-radius: 10px 20px;
+        }
+
+        main > section {
+            background-color: rgba(255, 255, 224, 0.384);
+            padding: 2px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        footer > p{
+            background-color: darkslategray;
+            color: white;
+            padding: 1px;
+            margin: 1px;
+            border-radius: 3px;
+            text-align: center;
+            box-shadow: 2px 3px 5px black;
+        }
+
+        nav {
+            background-color: rgba(16, 41, 41, 0.397);
+            margin: 0 auto;
+            text-align: center;
+            box-shadow: 0px 0px 5px black;
+        }
+         nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 6px;
+         }
+
+         nav a:hover {
+            text-decoration: underline;
+            color: rgb(182, 182, 182);
+            margin: 1px;
+         }
+        
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            background-color:darkslategray;
+            color: white;
+            width: 30%;
+            text-align: center;
+            border-radius: 0px 15px 0px 15px;
+            padding: 3px;
+            box-shadow: 3px 3px 7px black;  
+
+        }
+
+        article {
+            background-color: rgba(47, 79, 79, 0.144);
+        }
+
+        article > aside {
+            background-color: rgba(47, 79, 79, 0.829);
+            color: white;
+            border-radius: 3px;
+            box-shadow: 0px 0px 5px black;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site 🤓</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Novidades</a>
+            <a href="#">Assuntos</a>
+            <a href="#">Temas</a>
+            <a href="#">Dados</a>
+            <a href="#">Configurações</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2> Esporte e outras Modalidades</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quisquam nemo culpa aut excepturi architecto esse obcaecati molestiae! Voluptatum, quasi quam! Et nihil at delectus libero dolorem laudantium ullam consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fuga, voluptas sunt ullam qui repellendus id odio quam! Dolore dolores, eos consequuntur sunt ipsam atque veritatis quisquam. Odit, corporis doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium labore magnam ipsum, tempore nam a temporibus corporis minus totam eos incidunt reprehenderit numquam voluptatem ut dolorum porro! Assumenda, exercitationem.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nostrum ipsum veritatis quibusdam ratione quidem ea, deserunt reprehenderit ducimus voluptates omnis fugit, minima adipisci assumenda delectus voluptas beatae nisi vero.</p>
+                <aside>
+                    <p>Artigo escrito por Eduardo Costa</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Brasil em crise</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quia ducimus. Molestias veritatis eum quas amet necessitatibus dolores corrupti ipsam reiciendis adipisci nihil nam consequatur exercitationem, atque aut animi minima.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Renan 🤓</p>
+    </footer>
+</body>
+</html>

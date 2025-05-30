@@ -1,0 +1,15 @@
+📝 Dica p/ envelopar vários parágrafos com a mesma <tag>:
+
+	Selecionar tudo
+	Ctrl + Shift + P    ou    F1
+	Digitar e selecionar >Emmet: Wrap with Abbreviation
+	Digitar a tag com asterisco - ex: li*
+	Enter
+
+📝 Dica p/ envelopar a lista toda com <ul> e cada item da lista com <li> e <abbr>
+
+	Selecionar a lista toda
+	Ctrl + Shift + P    ou    F1
+	Digitar e selecionar >Emmet: Wrap with Abbreviation
+	Digitar ul>li*>abbr
+	Enter

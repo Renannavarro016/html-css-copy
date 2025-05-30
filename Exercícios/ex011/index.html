@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens/M.png" type="image/png">
+        <source media="(max-width: 1750px)" srcset="imagens/G.png" type="image/png">
+        <img src="imagens/GG .png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midias/Eu sinto o shadow.mp3" controls> </audio>
+    <!-- Formatos compatíveis; MP3, WAV, OGG -->
+     <audio controls autoplay loop>  
+        <source src="midias/Chupa palmeiras.mp3" type=" audio/mpeg">
+        <source src="midias/Chupa palmeiras.ogg" type="audio/ogg">
+        <source src="midias/Chupa palmeiras.wav" type="audio/wav">
+        <p>Seu navegador não suporta o elemento de áudio.</p>
+        <a href="midias/Chupa palmeiras.mp3">Clique aqui para baixr o arquivo em MP3</a>
+    </audio>
+    <p>
+        <a href="midias/elon musk uma vez disse....mp3">Clique aqui para baixar o arquivo em MP3</a>
+    </p>
+</body>
+</html>

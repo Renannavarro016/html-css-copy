@@ -1,0 +1,76 @@
+@charset  "UTF-8";
+
+/* 
+    em HMTML é id = em CSS é '#' (só pode um elementos)
+    em HTML é class = em CSS é '.' (pode varios elementos)
+ */
+ 
+body {
+    background-color: rgb(223, 255, 244);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgba(0, 39, 26, 0.945);
+}
+
+#principal {
+    background-color: rgba(2, 32, 22, 0.815);
+    color: rgba(255, 255, 255, 0.575);
+    border-radius: 12px;
+    box-shadow: 3px
+    5px 20px rgba(0, 0, 0, 0.24);
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.sub {
+    text-align: left;
+    border-radius: 11px;
+    padding: 6px;
+    font-size: 1.8em;
+    width: 28%;
+}
+
+h2 {
+    color: rgba(59, 114, 94, 0.829);
+}
+
+.basico {
+    background-color: rgba(65, 197, 153, 0.308);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.288);
+    border-radius: 6px;
+    border-width: 2em;
+    padding: 4px;
+    margin: 5px;
+    width: 16%;
+    text-align: center;
+}
+
+.medio {
+    background-color: rgba(5, 122, 83, 0.342);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.288);
+    border-radius: 6px;
+    border-width: 2em; ;
+    padding: 4px;
+    margin: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+.avançado {
+    background-color: rgba(3, 66, 43, 0.363);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.288);
+    border-radius: 6px; 
+    border-width: 2em;
+    padding: 4px;
+    margin: 5px;
+    width: 19%;
+    text-align: center;
+}
+
+.destaque {
+    background-color: rgba(235, 207, 53, 0.623);
+}
