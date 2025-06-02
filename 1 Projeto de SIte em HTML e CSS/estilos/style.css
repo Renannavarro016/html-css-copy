@@ -25,9 +25,7 @@ header {
     font-style: normal;
     font-size: 1.1em;
     box-shadow: 5px 5px 5px 1px rgba(255, 255, 255, 0.274);
-    max-width: 100%;
-    position: static;
-    z-index: 1000;
+    max-width: auto;
 }
 
 header h1 {
