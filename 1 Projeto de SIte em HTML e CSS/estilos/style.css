@@ -6,12 +6,13 @@
 
 body {
     margin: 0;
-    padding: -50px;
+    padding: 0px;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #e3d4ffc0;
-    overflow-y: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
     font-style: normal;
     font-size: 1.1em;
     box-shadow: 5px 5px 5px 1px rgba(255, 255, 255, 0.274);
-    width: auto;
+    width: 100%;
 }
 
 header h1 {
