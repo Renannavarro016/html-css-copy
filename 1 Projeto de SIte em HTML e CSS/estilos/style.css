@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 body {
-    margin: 0;
+    margin: -15px;
     padding: 0px;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
@@ -19,6 +19,7 @@ header {
     background-image: linear-gradient(to bottom, #24153ff5 70%, #301269a2);
     color: white;
     padding: 14px;
+    margin: 0;
     text-align: center;
     font-family: "Aldrich", sans-serif;
     font-weight: 400;
