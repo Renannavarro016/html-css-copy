@@ -13,6 +13,7 @@ body {
     background-color: #e3d4ffc0;
     overflow-y: auto;
     overflow-x: hidden;
+    overflow-wrap: break-word;
 }
 
 header {
