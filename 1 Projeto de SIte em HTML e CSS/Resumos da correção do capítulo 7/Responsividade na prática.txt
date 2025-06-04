@@ -1,4 +1,5 @@
-Quando devemos usar o sinal de maior ( " > " ) para manipular elementos que estão dentro de outros elementos (filho/children)? Talvez alguns de vocês estejam na dúvida, porque tem vezes que o Guanabara usa o sinal, e outras não... E às vezes, quando inserimos o sinal nos nossos seletores, as declarações simplesmente não tem efeito...
+Quando devemos usar o sinal de maior ( " > " ) para manipular elementos que estão dentro de outros elementos (filho/children)? Talvez alguns de vocês estejam na dúvida, porque tem vezes que o Guanabara usa o sinal, 
+e outras não... E às vezes, quando inserimos o sinal nos nossos seletores, as declarações simplesmente não tem efeito...
 
 ESCLARECENDO:
 
@@ -11,7 +12,9 @@ Você usa o " > " quando quer indicar que deseja estilizar um FILHO DIRETO de um
 	<p></p>
 </header>
 
-No caso do exemplo acima, o "p" é um filho direto da div especial <header>, e portanto é um elemento de Primeiro Nível. Da mesma forma, veja que o "h1" identicamente é um filho direto de header e portanto é um elemento de Primeiro Nível também. É como se <p> e <h1> fossem IRMÃOS. 
+No caso do exemplo acima, o "p" é um filho direto da div especial <header>, e portanto é um elemento de Primeiro Nível. 
+Da mesma forma, veja que o "h1" identicamente é um filho direto de header e portanto é um elemento de Primeiro Nível também. 
+É como se <p> e <h1> fossem IRMÃOS. 
 
 Mas quando você NÃO USA o " > ", você  quer indicar os elementos que não são necessariamente filhos, mas são DESCENDENTES. Veja outro exemplo: 
 
@@ -23,11 +26,14 @@ Mas quando você NÃO USA o " > ", você  quer indicar os elementos que não sã
 
 SELETOR NÃO SIMPLIFICADO PARA O EXEMPLO ACIMA: " main > article > h1 {...} ". H1 é filho direto de article, que é filho direto de main. 
 
-Tem como simplificar? Sim. Nesse caso, perceba que h1 é descendente de main (como se fosse um NETO ), então você pode DEIXAR DE USAR o " > " sem problema nenhum, dessa forma estará indicando elementos que não são necessariamente filhos, e sim descendentes. Exemplo: 
+Tem como simplificar? Sim. Nesse caso, perceba que h1 é descendente de main (como se fosse um NETO ), então você pode DEIXAR DE USAR o " > " 
+sem problema nenhum, dessa forma estará indicando elementos que não são necessariamente filhos, e sim descendentes. 
+Exemplo: 
 
 MESMO SELETOR ANTERIOR, SÓ QUE SIMPLIFICADO: " main h1 {...} "
 
-Obs.: Se tivéssemos criado o seletor simplificado do exemplo acima, mas com o sinal " > " ( ex: main > h1 {...} ), não funcionaria porque esse h1 NÃO É FILHO DIRETO do main, e sim neto. Sendo que o sinal de maior ( ">" ) serve apenas para indicar filhos diretos.
+Obs.: Se tivéssemos criado o seletor simplificado do exemplo acima, mas com o sinal " > " ( ex: main > h1 {...} ), não funcionaria porque esse h1 NÃO É FILHO DIRETO do main, e sim neto. 
+Sendo que o sinal de maior ( ">" ) serve apenas para indicar filhos diretos.
 
 É por isso que o Guanabara não usa o sinal de maior (>) às vezes, ele está simplificando o seletor (quando possível).
 

@@ -26,14 +26,18 @@ Estrutura básica do HTML do projeto:
 	<p></p>
 </footer>
 
-Tome muito cuidado na hora de montar a estrutura HTML , cuidado para não colocar as tags do lado de fora ou no lugar errado... Se você errar no HTML e os seus blocos não estão com a hierarquia certa, não adianta tentar formatar os estilos com CSS já que o HTML estará errado...
+Tome muito cuidado na hora de montar a estrutura HTML , cuidado para não colocar as tags do lado de fora ou no lugar errado... 
+Se você errar no HTML e os seus blocos não estão com a hierarquia certa, não adianta tentar formatar os estilos com CSS já que o HTML estará errado...
 
 IMPORTANTE: É fundamental que um aspirante a desenvolvedor/programador mantenha o seu código sempre bem arrumado, a INDENTAÇÃO é muito importante!
 
-Após construir a estrutura do seu site com as Grouping Tags Semânticas acima, o nosso conteúdo estará aglomerado e sem formatação, mas já estará SEMÂNTICAMENTE ORGANIZADO em caixas com uma estrutura hierárquica... Por hora não teremos efeitos visuais evidentes, mas já teremos um efeito puramente semântico da organização das nossas caixas, que serão modeladas, formatadas e estilizadas com CSS .
+Após construir a estrutura do seu site com as Grouping Tags Semânticas acima, o nosso conteúdo estará aglomerado e sem formatação, mas já estará SEMÂNTICAMENTE ORGANIZADO em caixas com uma estrutura hierárquica... 
+Por hora não teremos efeitos visuais evidentes, mas já teremos um efeito puramente semântico da organização das nossas caixas, que serão modeladas, formatadas e estilizadas com CSS .
 
-Já na parte do " head ", inserimos o favicon logo abaixo de "title"... Como temos uma pasta para imagens e fontes, e estamos elaborando um projeto, é importante mantermos os nossos arquivos organizados... Por isso CRIAMOS UMA PASTA ( "estilos" ) para armazenar o nosso documento CSS , que será externo ( Você pode criar a pasta "estilos" pelo próprio VSC ou no Explorador de Arquivos do projeto )
+Já na parte do " head ", inserimos o favicon logo abaixo de "title"... Como temos uma pasta para imagens e fontes, e estamos elaborando um projeto, é importante mantermos os nossos arquivos organizados... 
+Por isso CRIAMOS UMA PASTA ( "estilos" ) para armazenar o nosso documento CSS , que será externo ( Você pode criar a pasta "estilos" pelo próprio VSC ou no Explorador de Arquivos do projeto )
 
 Já no nosso documento CSS a regra @charset "UTF-8" foi inserida no início do código (Regra de codificação de caracteres utilizado no documento)
 
-Para testar se o arquivo CSS que criamos está funcionando, modifique a cor de fundo do corpo da página com a propriedade "background-color", se o corpo mudar de cor o nosso CSS está linkado e tudo funcionando como deveria.
+Para testar se o arquivo CSS que criamos está funcionando, modifique a cor de fundo do corpo da página com a propriedade 
+"background-color", se o corpo mudar de cor o nosso CSS está linkado e tudo funcionando como deveria.
