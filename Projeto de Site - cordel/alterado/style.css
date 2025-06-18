@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Permanent Marker', cursive;
+    line-height: 2em;
     color: #333;
     overflow-x: hidden;
     background: black no-repeat fixed cen center / cover;
@@ -51,7 +52,7 @@ main {
 
 .poem > p {
     background-color: #333333a4;
-    line-height: 1.5;
+    line-height: 2em;
     color: white;
     width: fit-content;
 }
@@ -64,7 +65,7 @@ main {
 
 .poem2 > p {
     background-color: #333333a4;
-    line-height: 1.5;
+    line-height: 2em;
     color: white;
     width: fit-content;
 }
