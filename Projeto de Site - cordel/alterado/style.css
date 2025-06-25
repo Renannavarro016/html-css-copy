@@ -45,7 +45,7 @@ main {
 }
 
 .poem {
-    background: black url(imagens/sertao.jpg) no-repeat fixed left center / cover;
+    background: black url(imagens/ceu-1.png) no-repeat fixed center center / cover;
     padding: 20px;
     margin: -18px;
 }
