@@ -2,23 +2,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-body {
-    font-family: 'Permanent Marker', cursive;
-    line-height: 2em;
-    color: #333;
-    overflow-x: hidden;
-    zoom: 1.2;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    text-align: center;
-    font-size: 2.5em;
+html, body {
+    min-height: 100vh;
+    font-family: 'Permanent Marker', cursive;
+    color: #333;
+}
+
+.header {
+    background-color: black;
     color: white;
+    text-align: center;
+    font-size: 3.2vw;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header > p {
+    padding-bottom: 50px;
+    font-size: 2vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 0.9em;
     text-align: center;
     color: white;
 }
@@ -32,51 +42,42 @@ a:hover {
     color: rgba(255, 255, 255, 0.678);
 }
 
-.header {
-    background-color: black;
-    padding: 21px;
-    margin: -30px;
-    width: 100%;
-}
-
-main {
-    padding: 30px;
-    margin: -20px;
-}
-
-.poem {
-    background: black url(imagens/ceu-1.png) no-repeat fixed center center / cover;
-    padding: 20px;
-    margin: -18px;
-}
-
-.poem > p {
-    background-color: #333333a4;
+section {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
     line-height: 2em;
-    color: white;
-    width: fit-content;
+    padding-left: 30px;
+    font-size: 3.2vw;
 }
 
-.poem2 {
-    background: black url(imagens/old-letters-436501_960_720.jpg) no-repeat fixed left center / cover;
-    padding: 20px;
-    margin: -18px;
+section.poem {
+    background: fixed url('imagens/ceu-1.png') no-repeat center center / cover;
 }
 
-.poem2 > p {
+section.poem1 {
+    background: fixed url('imagens/old-letters-436501_960_720.jpg') no-repeat center center / cover;
+}
+
+section.poem > p {
     background-color: #333333a4;
-    line-height: 2em;
     color: white;
-    width: fit-content;
+    display: inline-block;
+    font-size: 3vw;
+}
+
+section.poem1 > p {
+    background-color: #333333a4;
+    color: white;
+    display: inline-block;
+    font-size: 3vw;
 }
 
 footer {
     background-color: black;
     color: white;
     padding: 12px;
-    margin: -10px;
-    width: 100%;
     text-align: center;
+    font-size: 2vw;
 }
 
 footer > p > a {
