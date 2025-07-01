@@ -48,14 +48,21 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-size: 3.2vw;
+    
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.poem {
     background: fixed url('imagens/ceu-1.png') no-repeat center center / cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
 }
 
 section.poem1 {
     background: fixed url('imagens/old-letters-436501_960_720.jpg') no-repeat center center / cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.719);
 }
 
 section.poem > p {
@@ -63,6 +70,7 @@ section.poem > p {
     color: white;
     display: inline-block;
     font-size: 3vw;
+    text-shadow: 1px 1px 2px black;
 }
 
 section.poem1 > p {
@@ -70,6 +78,7 @@ section.poem1 > p {
     color: white;
     display: inline-block;
     font-size: 3vw;
+    text-shadow: 1px 1px 2px black;
 }
 
 footer {
@@ -77,7 +86,7 @@ footer {
     color: white;
     padding: 12px;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 footer > p > a {
