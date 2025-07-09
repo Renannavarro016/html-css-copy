@@ -1,0 +1,14 @@
+📝 LEMBRE-SE:
+
+Usar a pseudo-classe	:nth-child( )
+
+ - Para linhas pares usar (even) ou (2n);
+ - Para linhas ímpares usar (odd) ou (2n-1).
+
+ Ex:	tbody > tr:nth-child(odd) {
+            	background-color: white;	(opcional quando o fundo já for branco)
+	}
+
+	tbody > tr:nth-child(even) {
+            	background-color: lightgray;
+	}

@@ -1,0 +1,17 @@
+📝 NÃO ESQUEÇA:
+
+1º Passso - Usar posicionamento relativo na tabela:		position: relative;
+
+ Ex:	table {
+           	width: 500px;
+            	border-collapse: collapse;
+            	position: relative;
+	}
+
+
+2º Passso - Fixar o cabeçalho:		position: sticky;
+
+ Ex:	thead {
+            	position: sticky;
+            	top: -1px;
+	}
