@@ -1,0 +1,48 @@
+Alguns dizem que atualmente os iframes não tem mais utilidade e que caíram em desuso, 
+entretanto isso está errado e os iframes não estão defasados, sendo que podem sim serem úteis.
+
+É importante que você não confunda os "iframes" com os "frames"... 
+Não usamos mais os frames em HTML5, é muito difícil, só em casos muito pontuais. 
+Os frames estão realmente bem defasados, mas os iframes não.
+
+Observação: Esse " i " na palavra iframe é derivado da palavra " inline " (em linha). 
+Dessa forma, resumidamente um iframe seria um "frame inline", 
+ou também podemos chamar de "quadro em linha" (frame = quadro/moldura + inline = em linha).
+
+Para que serve um iframe?
+
+Basicamente um iframe serve para criarmos uma janela, como se fosse uma aba nova de navegador, 
+só que dentro da sua página. Uma nova instância de navegador (nova aba) dentro do seu site.
+
+Dessa forma, o iframe é uma tag em um documento HTML que viabiliza a inclusão de outro documento HTML dentro do primeiro. 
+Em outras palavras, ele permite que, a partir de uma página inicial, 
+seja possível abrir uma seção de outra página qualquer (aba).
+
+Usando iframes:
+
+Para criar um iframe em HTML, usamos a tag " <iframe></iframe> ". 
+Após abrir a tag, uma estrutura em forma de quadro será criada, essa estrutura é do tipo "inline"... 
+Isso significa que caso você insira a tag no meio de uma linha/frase por exemplo, 
+esse quadro ficará posicionado exatamente entre as palavras da frase. 
+Não terá um comportamento de caixa "box-level" a menos que você altere o display do elemento.
+
+De forma padrão, ao abrir a tag "iframe", os parâmetros/atributos " src " e " frameborder " já estarão embutidos na tag.
+
+O atributo frameborder vem com o valor "0", removendo a borda do nosso iframe.
+
+Já como valor do atributo src, você deve inserir o link da página que deseja abrir dentro da janela do iframe.
+
+Dessa maneira o site escolhido será carregado dentro desse iframe. 
+De forma padrão o iframe é carregado em uma dimensão de altura e largura muito pequena, 
+entretanto podemos modificar isso posteriormente.
+
+Nota: Existem alguns sites que possuem proteção para que o seu conteúdo não seja exibido dentro de um iframe em páginas de terceiros, 
+nesse caso a conexão será recusada. Um exemplo de site que não aceita conexão com iframes é o Google.
+
+Mais adiante iremos nos aprofundar na temática da proteção nos iframes. 
+Iframes são úteis em determinadas situações, mas você precisa saber que eles tem alguns problemas de segurança... 
+Entretanto, com o avanço do HTML5, é possível prever e resolver (ou pelo menos reduzir) tais inconvenientes na questão da segurança.
+
+Por isso, é importante que você saiba usar o iframe, e que também saiba em que momentos deve usar ou não usar. 
+Quando utilizar, saber quais são as facilidades que ele vai te trazer e quais são os problemas que ele pode te trazer.
+
