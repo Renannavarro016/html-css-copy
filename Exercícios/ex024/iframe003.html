@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        iframe.tela {
+            width: 99vh;
+            height: 400px;
+            border: solid 2px #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, saepe inventore perferendis optio quibusdam dolor doloremque maxime nisi, ducimus quas, necessitatibus voluptatibus. Qui iusto natus alias quos quas suscipit soluta!
+    </p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="iframe">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="iframe">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="iframe">Terceira página</a></li>
+    </ul>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, saepe inventore perferendis optio quibusdam dolor doloremque maxime nisi, ducimus quas, necessitatibus voluptatibus. Qui iusto natus alias quos quas suscipit soluta!
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, saepe inventore perferendis optio quibusdam dolor doloremque maxime nisi, ducimus quas, necessitatibus voluptatibus. Qui iusto natus alias quos quas suscipit soluta!
+    </p>
+
+    <iframe class="tela" name="iframe" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quasi itaque sunt praesentium maiores modi quas voluptatum repellendus cum! Ad sapiente officiis asperiores necessitatibus, unde iusto a architecto adipisci mollitia.</p> <img src='imagens/pc.png' alt='Imagem de exemplo' style='width: 300px; height: 200px; margin: auto; display: block;'>">
+        <p>
+            Infelizmente o navegador não é compatível com o arquivo
+        </p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem aut fuga repellat facilis laboriosam ipsam libero, qui quaerat distinctio odit. Atque, maiores explicabo culpa fuga necessitatibus natus architecto nam voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus natus soluta reprehenderit fugiat omnis possimus qui itaque ex obcaecati sit, dolore rerum sint accusamus nesciunt quibusdam voluptas eligendi inventore.
+    </p>
+</body>
+</html>
