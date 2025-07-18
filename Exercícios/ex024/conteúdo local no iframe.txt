@@ -1,0 +1,14 @@
+📝 MATERIAL DE APOIO:
+
+Inserindo conteúdo de site local no iframe:
+
+1) Criar na mesma pasta, uma página com o conteúdo a ser exibido no iframe da página principal;
+
+2) No iframe da página principal, inserir em 'src' o link da página a ser exibida;
+
+ Ex:	<iframe src="pag001 . html" frameborder="0"></iframe>
+
+
+ Obs:   Um site com tabela também pode ser inserido dentro de um <iframe>, mas é recomendável inseri-la dentro de uma 
+            <div>, pois facilita a ação dos mecanismos de busca;
+
