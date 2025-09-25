@@ -8,6 +8,7 @@
 }
 
 html, body {
+    font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
     background-color: #233eff;
@@ -19,6 +20,6 @@ html, body {
 
 h1 {
     color: white;
-    text-shadow: 2px 2px 0px rgba(241, 239, 239, 0.514);
+    text-shadow: 2px 2px 0px rgba(241, 239, 239, 0.329);
     padding: 10px;
 }
