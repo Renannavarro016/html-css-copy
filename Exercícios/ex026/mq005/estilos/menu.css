@@ -1,0 +1,142 @@
+@charset "'UTF-8";
+
+@media screen and (max-width: 600px) {
+    
+    header ul {
+        text-align: center;
+        padding: 0px;
+        line-height: normal;
+    }
+
+    header li {
+        display: block;
+    }
+
+    header a {
+        display: block;
+        padding: 12px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.096);
+    }
+    
+    header a:hover {
+        background-color: rgba(0, 0, 0, 0.445);
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 13px;
+   }
+
+   header li ul {
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.781);
+        box-shadow: 0px 0px 5px rgb(43, 42, 42);
+        border-radius: 8px;
+        margin-top: 0px;
+        margin-left: -18px;
+        padding: 10px;
+   }
+
+   header li:hover ul {
+        display: block;
+   }
+
+    header li ul li {
+        border: 0px solid rgba(0, 0, 0, 0.774);
+        display: block;
+        width: 100vw;
+    }
+
+   main {
+        margin: 50px;
+        padding: 20px;
+   }
+
+    main p {
+        margin: 10px;
+        padding: 15px; 
+        text-align: justify;
+   }
+
+   #ham {
+        display: block;
+   }
+
+   #men {
+        display: none;
+   }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    header ul {
+        padding: 0px;
+        line-height: normal;
+    }
+
+    header li {
+        display: inline-block;
+        
+    }
+
+    header a {
+        display: block;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    
+    header a:hover {
+        background-color: rgba(240, 248, 255, 0.205);
+        border-radius: 8px;
+        box-shadow: 0px 0px 5px rgb(43, 42, 42);
+        padding: 13px;
+   }
+
+   main {
+        margin: 80px;
+        padding: 50px;
+   }
+
+    main p {
+        margin: 10px;
+        padding: 15px; 
+        text-align: justify;
+   }
+}
+
+@media screen and (min-width: 1025px) {
+    header ul {
+        padding: 2px;
+        line-height: 50px;
+    }
+
+    header li {
+        display: inline-block;
+    }
+
+    header a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    header a:hover {
+        background-color: rgba(240, 248, 255, 0.205);
+        border-radius: 8px;
+        transition: 0.2s;
+        box-shadow: 0px 0px 5px rgb(43, 42, 42);
+        padding: 15px;
+   }
+
+   main {
+        margin: 150px;
+        padding: 10px;
+   }
+
+    main p {
+        margin: 40px;
+        padding: 10px; 
+        text-align: justify;
+   }
+}
