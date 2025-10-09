@@ -16,6 +16,7 @@ body {
 
 header {
     background-color: rgba(0, 0, 0, 0.575);
+    
 }
 
 header h1 {
@@ -37,7 +38,7 @@ header ul {
     padding: 2px;
     line-height: 50px;
     list-style-type: none;
-    display: block;
+    
 }
 
 header li{
@@ -77,12 +78,5 @@ main p {
     margin-bottom: 30px;
     line-height: 1.2em;
     font-size: 13px;
-}
-
-#ham {
-    display: none;
-}
-
-#ham a {
-    color: black;
+    text-indent: 20px;
 }
