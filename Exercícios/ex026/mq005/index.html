@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
-    <link rel="stylesheet" href="estilos/style.css" media="screen">
+    <link rel="stylesheet" href="estilos/tela.css" media="screen">
     <link rel="stylesheet" href="estilos/menu.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <i id="ham" onclick="clickMenu()">☰</i>
-        <nav id="itens">
+        <nav>
             <ul>
-                <li><a href="#">Opção 1</a></li>
-                <li><a href="#">Opção 2</a></li>
-                <li><a href="#">Opção 3</a></li>
-                <li><a href="#">Opção 4</a></li>
-                <li><a href="#">Opção 5</a></li>
+                <li id="ham"><a href="#">☰</a>
+                    <ul>
+                        <li><a href="#">Opção 1</a></li>
+                        <li><a href="#">Opção 2</a></li>
+                        <li><a href="#">Opção 3</a></li>
+                        <li><a href="#">Opção 4</a></li>
+                        <li><a href="#">Opção 5</a></li>
+                    </ul>
+                </li>
+                <li id="men"><a href="#">Opção 1</a></li>
+                <li id="men"><a href="#">Opção 2</a></li>
+                <li id="men"><a href="#">Opção 3</a></li>
+                <li id="men"><a href="#">Opção 4</a></li>
+                <li id="men"><a href="#">Opção 5</a></li>
             </ul>
         </nav>
     </header>
@@ -41,14 +49,5 @@
             </p>
         </article>
     </main>
-    <script>
-        function clickMenu() {
-            if(itens.style.display == 'block') {
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
-    </script>
 </body>
 </html>
