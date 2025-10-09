@@ -21,7 +21,7 @@
     }
     
     header a:hover {
-        background-color: rgba(255, 255, 255, 0.658);
+        background-color: rgba(0, 0, 0, 0.315);
         border-radius: 0px;
         box-shadow: none;
         padding: 13px;
@@ -30,7 +30,7 @@
     header li ul {
         display: none;
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.795);
+        background-color: aliceblue;
         box-shadow: 0px 0px 5px rgb(43, 42, 42);
         border-radius: 8px;
         margin-top: 0px;
@@ -43,7 +43,7 @@
     }
 
     header li ul li {
-        border: 0px solid rgba(0, 0, 0, 0.37);
+        border: 1px solid rgba(0, 0, 0, 0.103);
         display: block;
         width: 100vw;
     }
