@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="estilos2/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="ham" onclick="clickMenu()">☰</i>
+        <nav id="itens">
+            <ul>
+                <li id="men"><a href="#">Opção 1</a></li>
+                <li id="men"><a href="#">Opção 2</a></li>
+                <li id="men"><a href="#">Opção 3</a></li>
+                <li id="men"><a href="#">Opção 4</a></li>
+                <li id="men"><a href="#">Opção 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi suscipit officia quas iste at numquam! Voluptate ut numquam vitae ipsum voluptatum ipsam quod laboriosam debitis libero, nobis delectus ipsa.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem. Ad quas fuga amet accusantium dolorem facere quaerat reprehenderit aperiam facilis ea error fugit, nostrum repellat quos beatae rem sequi.
+               
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi suscipit officia quas iste at numquam! Voluptate ut numquam vitae ipsum voluptatum ipsam quod laboriosam debitis libero, nobis delectus ipsa.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem. Ad quas fuga amet accusantium dolorem facere quaerat reprehenderit aperiam facilis ea error fugit, nostrum repellat quos beatae rem sequi.
+                
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus ut neque vitae voluptatem quis praesentium voluptas aliquam, fuga maiores culpa repellat dignissimos, dolor molestias odio dicta ea deserunt architecto.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti commodi. Deleniti quisquam ullam consectetur nam accusantium itaque nihil, asperiores reiciendis odit quia officiis expedita? Nihil atque inventore porro nisi?
+                a molestiae minima cum porro culpa aut.
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            let menu = document.getElementById('itens')
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
