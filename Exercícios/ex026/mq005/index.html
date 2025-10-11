@@ -10,22 +10,14 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <nav>
+        <i id="ham" onclick="clikMenu()">☰</a></i>
+        <nav id="itens">
             <ul>
-                <li id="ham"><a href="#">☰</a>
-                    <ul>
-                        <li><a href="#">Opção 1</a></li>
-                        <li><a href="#">Opção 2</a></li>
-                        <li><a href="#">Opção 3</a></li>
-                        <li><a href="#">Opção 4</a></li>
-                        <li><a href="#">Opção 5</a></li>
-                    </ul>
-                </li>
-                <li id="men"><a href="#">Opção 1</a></li>
-                <li id="men"><a href="#">Opção 2</a></li>
-                <li id="men"><a href="#">Opção 3</a></li>
-                <li id="men"><a href="#">Opção 4</a></li>
-                <li id="men"><a href="#">Opção 5</a></li>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
             </ul>
         </nav>
     </header>
@@ -49,5 +41,15 @@
             </p>
         </article>
     </main>
+    <script>
+        function clikMenu() {
+            let menu = document.getElementById('itens')
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
