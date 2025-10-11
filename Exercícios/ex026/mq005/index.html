@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilos/tela.css" media="screen">
     <link rel="stylesheet" href="estilos/menu.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <i id="ham" onclick="clikMenu()">☰</a></i>
@@ -42,6 +42,15 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clikMenu() {
             let menu = document.getElementById('itens')
             if (menu.style.display === 'block') {
