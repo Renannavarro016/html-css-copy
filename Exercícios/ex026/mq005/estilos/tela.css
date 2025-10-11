@@ -81,7 +81,7 @@
     header li ul li {
         border: 1px solid rgba(0, 0, 0, 0.171);
         display: block;
-        width: 100vw;
+        width: 90vw;
     }
 
     i#ham {
