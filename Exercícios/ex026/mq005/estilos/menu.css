@@ -27,8 +27,8 @@
    }
 
    nav {
-        margin-bottom: 10px;
-        display: block;
+        margin-bottom: 0px;
+        display: none;
    }
 
    main {
@@ -83,7 +83,7 @@
    }
 
    nav {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         display: block;
    }
 
