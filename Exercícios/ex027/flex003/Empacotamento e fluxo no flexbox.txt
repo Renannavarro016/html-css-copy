@@ -1,0 +1,45 @@
+🎥 Principais pontos
+
+O vídeo começa recapitulando a direção e os eixos do layout com display: 
+flex, ou seja, os eixos “principal” e “transversal”. 
+YouTube
+
+Introdução ao que foi aprendido até esse ponto no módulo. 
+YouTube
+
+Apresentação da propriedade flex‑wrap, que controla como os itens flexíveis se comportam quando 
+o contêiner não tem espaço suficiente. 
+YouTube
+
+Valor nowrap (itens não quebram linha) 
+YouTube
+
+Valor wrap (itens quebram linha usualmente) 
+YouTube
+
+Valor wrap-reverse (itens quebram, mas na ordem invertida) 
+YouTube
+
+Em seguida, o vídeo mostra um resumo importante para fixar o entendimento. 
+YouTube
+
+Depois, há um exemplo prático usando flex-wrap, para ver em código como a propriedade funciona. 
+YouTube
+
+Introdução à propriedade flex‑flow, que combina flex-direction + flex-wrap para simplificar a sintaxe. 
+YouTube
+
+Demonstração de como usar flex-flow na prática. 
+YouTube
+
+Uso da propriedade flex com valor auto, e como isso se comporta dentro do contexto flexível. 
+YouTube
+
+O vídeo finaliza com o que será visto nos próximos vídeos. 
+YouTube
+
+✅ Conclusão
+
+O objetivo do vídeo é ensinar como os itens de um contêiner flexível se “empacotam” 
+e fluem quando o espaço é limitado, usando flex-wrap e também como simplificar com flex-flow. 
+Ele mostra os valores possíveis, o que cada um faz, e então aplica em exemplos concretos para fixar a aprendizagem.
