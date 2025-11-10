@@ -1,0 +1,28 @@
+Tópicos principais
+
+O vídeo explica o uso das propriedades CSS flexbox — em especial justify-content e align-items — 
+para alinhar itens nos eixos horizontal e vertical. 
+YouTube
+
+Mostra a diferença entre valores como flex-start, flex-end, center, space-between, space-around, etc., 
+aplicados ao container flex. 
+YouTube
+
+Aplica os conceitos em um exemplo prático de layout, 
+demonstrando como os itens dentro de um container flex podem ser alinhados tanto no eixo principal 
+(row ou column) quanto no eixo cruzado. 
+YouTube
+
+Dicas importantes que o vídeo enfatiza
+
+O eixo principal do flex container é determinado pela propriedade flex-direction (por exemplo row ou column).
+
+justify-content alinha os itens ao longo do eixo principal.
+
+align-items alinha os itens ao longo do eixo cruzado.
+
+É bom testar combinações diferentes para entender como cada valor se comporta — 
+isso facilita construir layouts responsivos e organizados.
+
+Entender esses alinhamentos ajuda a evitar truques com margens ou position para casos simples de layout, 
+tornando o código mais limpo.
