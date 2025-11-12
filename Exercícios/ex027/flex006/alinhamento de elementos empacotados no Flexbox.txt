@@ -1,0 +1,54 @@
+1-  jUSTIFY-CONTENT : serve para alinhar o conteúdo,alinhar os itens dentro do eixo principal.
+2-  ALIGN-ITEMS: serve para alinhar os conteúdos,itens dentro do eixo transversal.
+3-  ALIGN-CONTENT: serve para alinhar os elementos do eixo transversal quando eles estão empacotados.
+
+
+🎯 Objetivo principal
+
+O vídeo explica como usar o layout do CSS com a propriedade display: flex + flex-box para alinhar elementos 
+que estão “empacotados” (wrapping) — ou seja, 
+quando os itens dentro de um container flex quebram em múltiplas linhas — 
+e como controlar esse alinhamento de forma eficaz. 
+YouTube
+
+📌 Tópicos abordados
+
+Flex container com wrapping
+Explica o uso de flex-wrap: wrap ou wrap-reverse para permitir que os itens do flex container quebrem em linhas 
+quando não cabem mais na única linha.
+
+Alinhamento principal (main axis)
+Uso de propriedades como justify-content para controlar como as linhas ou itens são distribuídos ao longo 
+do eixo principal.
+
+Alinhamento de múltiplas linhas (“multi-row alignment”)
+Quando há múltiplas linhas (porque flex-wrap foi ativado), como alinhar essas linhas dentro do container: 
+por exemplo align-content: center, space-between, etc.
+
+Alinhamento de itens dentro das linhas (“cross-axis alignment”)
+Uso de align-items, align-self para controlar o posicionamento vertical ou perpendicular da linha ou dos itens 
+dentro do container flex.
+
+Demonstrações práticas
+O vídeo mostra exemplos visuais: itens que quebram em nova linha, e como diferentes valores de justify-content, 
+align-items, align-content alteram o layout resultante.
+
+Dicas e “gotchas”
+– Importância de entender qual eixo (principal vs transversal) você está alinhando.
+– Como o align-content só tem efeito quando há espaço extra e múltiplas linhas.
+– Como flex-wrap: wrap-reverse inverte a ordem das linhas e pode afetar o alinhamento.
+
+✅ Principais aprendizados
+
+Quando usar flex-wrap: wrap, você precisa ajustar alinhamento das linhas com align-content para garantir que as 
+linhas sejam distribuídas apropriadamente, especialmente quando o container tem altura maior que o necessário.
+
+Para itens dentro da linha, align-items (ou align-self nos itens) controla alinhamento transversal.
+
+justify-content continua sendo útil para distribuir o espaço ao longo do eixo principal entre os itens ou linhas.
+
+Visualizar o flex container como “um conjunto de linhas” ajuda a compreender melhor como os diferentes 
+alinhamentos interagem.
+
+Testar visualmente diferentes combinações ajuda bastante — porque o comportamento muda conforme quantas linhas há,
+se há espaço extra, etc.
