@@ -1,0 +1,34 @@
+🔍 Principais pontos
+
+O vídeo explica o que é a propriedade flex‑basis, e como ela se insere no contexto do Flexbox: 
+antes que flex‑grow ou flex‑shrink atuem, flex‑basis define o tamanho inicial do item flexível.
+
+Ele mostra que o flex‑basis pode receber valores como comprimento fixo (px, em, %), ou as palavras‑chave auto. 
+Quando for auto, o tamanho “inicial” do item será definido com base em sua largura/altura normal 
+(dependendo da direção do container).
+
+É destacado que, mesmo com flex‑grow definido, o flex‑basis serve como “base” 
+para o cálculo de como o espaço extra no container será distribuído.
+
+Também há demonstração prática: exemplo de código onde se aplica display: 
+flex; ao container e define-se flex‑basis nos itens para controlar quanto espaço eles ocupam antes da expansão ou 
+encolhimento.
+
+O vídeo reforça: se você definir flex‑basis: 0;, você está dizendo “meu item parte de tamanho zero” e aí flex‑grow 
+fará o trabalho de distribuir o espaço. 
+Enquanto que se deixá‑lo em auto, o tamanho base será o conteúdo ou largura/altura normal, 
+e então o restante será ajustado conforme grow/shrink.
+
+Por fim, há dicas de quando usar flex‑basis para layouts de front‑end responsivos, 
+para garantir que os itens tenham um “tamanho base” adequado antes de flexionar.
+
+✅ Por que isso importa
+
+Ajuda a controlar a distribuição de espaço entre itens num container flexível, 
+especialmente em layouts responsivos ou que se adaptam a diferentes larguras de tela.
+
+Dá mais previsibilidade: em vez de depender só de flex‑grow/shrink e tamanhos automáticos, 
+você define onde o item “começa”.
+
+Em equipes de front‑end ou projetos complexos, usar flex‑basis corretamente evita comportamentos inesperados de 
+colunas ou “cards” que crescem/desaparecem de forma estranha.
