@@ -1,0 +1,92 @@
+📘 GUIA RÁPIDO — Controle do Tamanho de Itens Flexíveis
+
+(Baseado no vídeo do Curso em Vídeo – Flexbox: Controle do Tamanho)
+
+🧩 1. flex-grow — Quanto o item CRESCE
+
+Define quanto cada item pode aumentar de tamanho quando sobra espaço no container.
+
+flex-grow: 0; → não cresce
+
+flex-grow: 1; → cresce e divide o espaço igualmente
+
+Valores maiores dão prioridade para um item crescer mais
+
+Exemplo:
+.item1 { flex-grow: 1; }
+.item2 { flex-grow: 2; }
+.item3 { flex-grow: 1; }
+
+
+O item 2 vai crescer duas vezes mais que 1 e 3.
+
+🧩 2. flex-shrink — Quanto o item ENCOLHE
+
+Define quanto o item encolhe quando falta espaço no container.
+
+flex-shrink: 0; → NÃO encolhe
+
+flex-shrink: 1; → encolhe normalmente
+
+Número maior → item encolhe mais do que os outros
+
+Exemplo:
+.item1 { flex-shrink: 1; }
+.item2 { flex-shrink: 3; }
+
+
+O item 2 encolhe mais quando o container fica apertado.
+
+🧩 3. flex-basis — Tamanho inicial
+
+Define o tamanho base antes de crescer ou encolher.
+
+Pode ser auto, px, %, etc.
+
+Se deixar auto, o tamanho depende do conteúdo ou de width.
+
+Exemplo:
+.item { flex-basis: 200px; }
+
+
+O item começa com 200px e depois cresce/encolhe conforme grow e shrink.
+
+🧩 4. A forma mais prática ↓
+
+A maioria dos layouts pode usar a shorthand flex::
+
+flex: grow shrink basis;
+
+Exemplo comum:
+.item {
+  flex: 1 1 200px;
+}
+
+
+Significa:
+
+Cresce (1)
+
+Encolhe (1)
+
+Começa com 200px
+
+🧩 5. Exemplos úteis do dia a dia
+➤ Exemplo: três caixas que dividem igualmente o espaço
+.item { flex: 1; }
+
+➤ Exemplo: uma caixa maior que as outras
+.item1 { flex: 2; }
+.item2 { flex: 1; }
+.item3 { flex: 1; }
+
+➤ Exemplo: caixa que não encolhe
+.item { flex-shrink: 0; }
+
+➤ Exemplo: grade responsiva simples
+.card {
+  flex: 1 1 250px;
+}
+
+
+Cards aumentam, encolhem e quebram linha conforme necessário.

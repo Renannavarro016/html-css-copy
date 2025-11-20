@@ -15,17 +15,30 @@
             background-color: cornflowerblue;
             border: 1px solid navy;
             text-align: center;
-            flex-basis: 250px;
-            flex-shrink: 1;
+            flex-basis: 200px;
+        }
+
+        #i1 {
+            flex-grow: 0;
+            flex-shrink: 4;
+        }
+
+        #i2 {
+            flex-grow: 3;
+            flex-shrink: 8;
+        }
+
+        #i3 {
             flex-grow: 1;
+            flex-shrink: 0;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
+        <div class="item" id="i1">Item 1</div>
+        <div class="item" id="i2">Item 2</div>
+        <div class="item" id="i3">Item 3</div>
     </div>
 </body>
 </html>
