@@ -1,0 +1,73 @@
+📌 Shorthand flex
+
+A sintaxe completa do shorthand é:
+
+flex: <flex-grow> <flex-shrink> <flex-basis>;
+
+
+flex-grow → Quanto o item pode crescer (proporcionalmente aos outros itens).
+
+flex-shrink → Quanto o item pode encolher quando o espaço é insuficiente.
+
+flex-basis → O tamanho inicial do item antes de aplicar grow ou shrink.
+
+Exemplo:
+
+.item {
+    flex: 2 1 150px;
+}
+
+
+Equivalente a:
+
+.item {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+📌 Valores padrão e abreviações
+
+flex: auto;
+
+Equivalente a flex: 1 1 auto;
+
+O item cresce e encolhe conforme necessário, usando o tamanho natural (auto) como base.
+
+flex: initial;
+
+Equivalente a flex: 0 1 auto;
+
+Não cresce, encolhe se necessário, base no tamanho natural.
+
+flex: none;
+
+Equivalente a flex: 0 0 auto;
+
+O item não cresce nem encolhe, mantém o tamanho definido no width ou flex-basis.
+
+flex: <number>;
+
+Se só passar um número, é considerado flex-grow.
+Exemplo: flex: 2; → flex-grow: 2; flex-shrink: 1; flex-basis: 0%;
+
+Isso é útil para layouts simples, mas às vezes você quer controle mais detalhado.
+
+📌 Exemplos práticos
+.container {
+    display: flex;
+    width: 600px;
+}
+
+.item1 { flex: 1 1 150px; background: red; }
+.item2 { flex: 2 1 150px; background: blue; }
+.item3 { flex: 1 2 150px; background: green; }
+
+
+item1: Cresce normalmente, encolhe normalmente.
+
+item2: Cresce duas vezes mais rápido que item1, encolhe normalmente.
+
+item3: Cresce igual item1, mas encolhe duas vezes mais rápido que item1.
+
+Isso permite criar layouts muito flexíveis com poucas linhas de código, sem precisar calcular larguras manualmente.
