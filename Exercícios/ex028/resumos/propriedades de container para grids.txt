@@ -1,0 +1,85 @@
+📘 CSS Grid – Grid Explícito e Implícito (Resumo)
+🔹 Grid Explícito
+
+É o grid definido manualmente.
+
+Criado com:
+
+grid-template-columns
+
+grid-template-rows
+
+Você controla exatamente quantas linhas e colunas existirão.
+
+🔹 Grid Implícito
+
+É criado automaticamente pelo navegador.
+
+Surge quando há mais itens do que o grid definido suporta.
+
+O layout cresce sozinho conforme necessário.
+
+🔧 Propriedades do Grid Implícito
+
+grid-auto-rows → define altura das linhas automáticas.
+
+grid-auto-columns → define largura das colunas automáticas.
+
+grid-auto-flow → define como os itens são distribuídos (row, column, dense).
+
+🎯 Ideia principal:
+O Grid Explícito define a estrutura manualmente, 
+e o Grid Implícito permite que o layout cresça automaticamente de forma organizada e flexível.
+
+
+No vídeo "Propriedades de container para Grids (parte 4)", 
+Gustavo Guanabara ensina sobre a função repeat() e a unidade 'fr' (fração) no CSS Grid. 
+
+Ele destaca como essas ferramentas simplificam as declarações de grid, 
+aumentando a flexibilidade e precisão na divisão de espaço.
+
+Os principais pontos abordados são:
+
+Função repeat(): 
+
+Simplifica a declaração de colunas e linhas quando os valores se repetem, 
+permitindo escrever menos código e tornar a definição de grid mais eficiente.
+
+Unidade 'fr': 
+
+Representa frações do espaço disponível, 
+oferecendo uma maneira mais precisa de dividir a tela em comparação com pixels e porcentagens.
+
+Exemplos Práticos: 
+
+O instrutor mostra como usar repeat() e 'fr' em diferentes contextos, 
+incluindo layouts assimétricos e a mistura de unidades fixas com frações.
+
+Dicas e Recomendações: 
+
+O vídeo inclui recomendações sobre quando usar 'fr' em vez de 'auto' para garantir layouts mais flexíveis.
+Esse conteúdo é fundamental para quem deseja criar layouts responsivos e eficientes utilizando CSS Grid.
+
+
+Principais Pontos sobre Porcentagem:
+Definição de Porcentagem:
+
+A porcentagem é utilizada para definir uma medida que é uma fração do tamanho total do contêiner, 
+não do espaço restante após outras medidas.
+
+Exemplo Prático:
+
+Ao definir uma coluna com 20% de um contêiner de 1500 pixels, 
+a coluna ocupará 300 pixels (20% de 1500) e não 20% do que sobrou após outras colunas.
+
+Mistura de Unidades:
+
+Quando se mistura porcentagens com pixels e frações, primeiro são calculados os valores fixos (pixels e porcentagens). 
+O espaço restante é então dividido entre as frações.
+Por exemplo, se uma coluna ocupa 100 pixels e outra 300 pixels, o espaço restante (1000 pixels) 
+será dividido entre as frações definidas.
+
+Recomendação:
+
+O instrutor recomenda cautela ao misturar diferentes unidades e sugere que, sempre que possível, 
+o uso de frações é preferível para uma maior flexibilidade e facilidade de ajuste em layouts.

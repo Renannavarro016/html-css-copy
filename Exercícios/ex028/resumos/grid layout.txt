@@ -1,0 +1,15 @@
+📌 Título/tema: O que é Grid Layout?
+
+📌 Resumo:
+O vídeo explica o Grid Layout, um sistema de layout em CSS usado para organizar elementos em uma página web. 
+Ele mostra como o Grid funciona distribuindo conteúdo em colunas e linhas, comparando com o Flexbox — outra técnica de layout em CSS. 
+A ideia principal é apresentar os conceitos básicos para iniciar projetos com Grid, 
+mostrar quando ele é útil e como ele estrutura melhor o posicionamento dos itens na página.
+
+🔎 Pontos principais (prováveis):
+
+Introdução ao Grid Layout como um modelo de layout bidimensional em CSS.
+
+Diferença entre Grid e Flexbox (Grid lida com linhas e colunas; Flexbox é unidimensional).
+
+Exemplos básicos de como definir um container Grid e organizar os itens dentro dele.

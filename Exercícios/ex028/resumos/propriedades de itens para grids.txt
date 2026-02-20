@@ -1,0 +1,63 @@
+🔑 Principais Propriedades Explicadas
+📍 1. grid-row-start
+
+Define em qual linha do grid um item começa.
+
+Ajuda a posicionar verticalmente cada elemento dentro da grade.
+
+Por exemplo, se você quiser que um item comece na linha 2, essa propriedade é usada para isso.
+
+📍 2. grid-row-end
+
+Define em qual linha o item termina.
+
+Isso faz com que o item possa ocupar mais de uma linha se desejado.
+
+Junto com grid-row-start, controla a altura do item no grid.
+
+📍 3. grid-column-start
+
+Define em qual coluna o item começa.
+
+Ajuda a posicionar o item horizontalmente no grid.
+
+📍 4. grid-column-end
+
+Define em qual coluna o item termina.
+
+Junto com grid-column-start, controla a largura do item no grid.
+
+🎯 Analogia Usada
+
+Para tornar mais intuitivo, o professor faz uma analogia com o jogo Batalha Naval:
+
+Assim como você escolhe as coordenadas no jogo para posicionar navios, 
+em CSS Grid você seleciona linhas e colunas para posicionar itens.
+
+🛠 Exemplo Prático
+
+Ao longo do vídeo, Guanabara apresenta um exemplo prático de um layout simples com várias caixas 
+(caixa 1, caixa 2, caixa 3), e ele demonstra como colocar essas caixas em diferentes posições na grade usando as propriedades acima. 
+Isso ajuda a consolidar o entendimento visual das propriedades, mostrando como cada configuração muda o layout final.
+
+💡 Dicas Importantes que Ele Enfatiza
+
+Entender que um Grid tem Linhas e Colunas, e as propriedades explicadas permitem dizer exatamente onde cada item começa e termina.
+
+Usar essas propriedades com lógica facilita muito a criação de layouts complexos, 
+sem depender de ajustes manuais com margens ou posições absolutas.
+
+📚 Conclusão
+
+Este vídeo é uma aula didática e estruturada sobre as propriedades de itens no CSS Grid, 
+ensinando como controlar a posição individual de elementos dentro de uma grade usando:
+
+grid-row-start
+
+grid-row-end
+
+grid-column-start
+
+grid-column-end
+
+com explicações práticas e analogias visuais que facilitam o entendimento, ideal para quem está aprendendo layout responsivo com CSS.

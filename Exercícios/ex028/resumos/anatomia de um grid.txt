@@ -1,0 +1,27 @@
+Componentes Estruturais
+
+• Grid Container: É o elemento pai que contém todos os outros itens da grade. Todas as especificações de grid começam com uma definição clara neste contêiner.
+
+• Grid Item: São os itens individuais localizados nas interseções da grade.
+
+• Grid Track: Um nome genérico para as trilhas que atravessam o grid de um lado ao outro.
+    ◦ Row Track: Trilha horizontal (linha).
+    ◦ Column Track: Trilha vertical (coluna).
+
+• Grid Área: Um agrupamento de vários itens que formam uma área específica na grade.
+A Diferença entre Row e Line
+O instrutor destaca que, em português, ambas as palavras costumam ser traduzidas como "linha", o que gera confusão.
+
+• Grid Row: Refere-se à trilha (track) deitada.
+
+• Grid Line: Refere-se às linhas divisórias que delimitam as trilhas.
+
+• Importante: Se um grid tem 6 colunas, ele terá 7 Grid Lines verticais para delimitá-las.
+Sistema de Numeração das Grid Lines
+As linhas da grade possuem dois "endereços" baseados em sua direção:
+1. Numeração Positiva: Começa em 1 (da esquerda para a direita ou de cima para baixo).
+2. Numeração Negativa: Começa em -1 na última linha (da direita para a esquerda ou de baixo para cima).
+    ◦ Isso facilita o design responsivo, permitindo referenciar a "última" ou "penúltima" linha (ex:  ou ) independentemente do número total de colunas-1-2.
+Espaçamento e Design
+
+• Grid Gap: É o espaço configurável entre os itens do grid. Ele permite criar "respiro" no design sem alterar o tamanho real dos Grid Items.
