@@ -22,7 +22,7 @@ div {
 }
 
 .topo {
-    background-color: dimgrey;
+    background-color: rgb(87, 86, 86);
     grid-row: 1 / 1;
     grid-column: 1 / 3;
 }
@@ -34,13 +34,13 @@ div {
 }
 
 .principal {
-    background-color: lightslategray;
+    background-color: rgb(69, 77, 85);
     grid-row: 3 / 4;
     grid-column: 1 / 2;
 }
 
 .secundario {
-    background-color: azure;
+    background-color: rgb(126, 138, 138);
     grid-row: 3 / 4;
     grid-column: 2 / 3;
 }
