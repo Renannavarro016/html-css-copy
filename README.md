@@ -5,7 +5,7 @@ Meus projetos feitos:
 
 <a href="https://renannavarro016.github.io/projeto-portfolio/">Acesse o meu Portfólio</a>
 
-<a href="https://renannavarro016.github.io/html-css-copy/projeto-tecnologia">Acesse o Projeto Tecnologia</a>
+<a href="https://renannavarro016.github.io/projeto-tecnologia/index.html">Acesse o Projeto Tecnologia</a>
 
 <a href="https://renannavarro016.github.io/projeto-login">Acesse o Projeto Login</a>
 
