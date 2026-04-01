@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/robo.ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/Stim.ico" type="image/x-icon">
     <style>
         body {
             background-color: rgb(20, 20, 20);
@@ -15,23 +15,30 @@
             font-family: Arial, Helvetica, sans-serif;
             display: flex;
             justify-content: center;
+            width: 100%;
+            margin-left: 5px;
         }
 
         .videos {
-            padding: 20px;
+            padding: 0px;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 20px;
-            width: auto;
+            width: 100%;
         }
 
-        .videos a:hover {
-            transform: translateY(-2px);
-            transition: transform 0.6s ease;
+        .videos a img {
+            transition: all .6s;
+            gap: 10px;
+        }
+
+        .videos a img:hover {
+            transform: translateY(-3px);
         }
 
         @media screen and (max-width: 990px) {
+
             .videos {
                 display: block;
                 margin: auto;
@@ -61,7 +68,10 @@
         <a href="pagina do video 2/index.html" class="endrick"><img src="imagens/endrick.jpg" alt="capa endrick" width="310" height="360" style="border-radius: 0.5em;"></a>
         <br>
         <br>
-        <a href="pagina do video 3/index.html"><img src="imagens/campeão.jpg" alt="" width="310" height="360" style="border-radius: 0.5em;"></a>
+        <a href="pagina do video 3/index.html"><img src="imagens/campeão.jpg" alt="capa campeao" width="310" height="360" style="border-radius: 0.5em;"></a>
+        <br>
+        <br>
+        <a href="pagina do video 4/index.html"><img src="imagens/corinthians.jpg" alt="capa edit campeao" width="310" height="360" style="border-radius: 0.5em;" style="aspect-ratio: 1/1;"></a>
     </div>
 </body>
 </html>
