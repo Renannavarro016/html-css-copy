@@ -1,7 +1,7 @@
 # html-css
-Curso de HTML5 e CSS3 - Estudante de desenvolvimento de sistemas
+# Curso de HTML5 e CSS3 - Estudante de desenvolvimento de sistemas
 
-Meus projetos feitos: 
+### Meus projetos feitos: 
 
 <a href="https://renannavarro016.github.io/projeto-portfolio/">Acesse o meu Portfólio</a>
 
@@ -16,7 +16,8 @@ Meus projetos feitos:
 <a href="https://renannavarro016.github.io/projeto-menu">Acesse o Projeto Menu</a>
 
 <br>
-Minhas redes sociais para contato: 
+
+### Minhas redes sociais para contato: 
 
 <a href="https://www.instagram.com/renan_navarro15/">Instagram</a>
 <a href="https://www.facebook.com/renannavarroo?rdid=HCWINwqwU3X5D76z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18XGEmj1x8%2F#">Facebook</a>
