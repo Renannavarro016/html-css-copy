@@ -12,6 +12,7 @@
 
     body {
         background-color: aliceblue;
+        overflow: hidden;
     }
 
     header {
@@ -42,6 +43,7 @@
 
     header li {
         display: block;
+        transition: all .5s;
     }
 
     header a {
@@ -52,9 +54,10 @@
         box-sizing: border-box;
         border-bottom: 1px solid rgba(255, 255, 255, 0.295);
         text-decoration: none;
+        transition: background-color .5s;
     }
 
-    header a:hover {
+    header #itens ul li a:hover {
         background-color: gray;
         border-radius: 0px;
         padding: 13px;
@@ -87,6 +90,7 @@
         cursor: pointer;
         font-size: 20px;
         display: block;
+        transition: all .5s;
     }
 
     i#ham:hover {
