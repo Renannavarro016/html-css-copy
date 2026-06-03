@@ -1,0 +1,73 @@
+# 🎥 Projeto Galeria de Vídeos
+
+Uma interface moderna desenvolvida para exibição e navegação de vídeos, com foco em organização visual, experiência do usuário e design responsivo.
+
+## 🚀 Sobre o projeto
+
+O **Projeto Galeria de Vídeos** foi criado para praticar conceitos modernos de desenvolvimento front-end, explorando organização de mídia, navegação intuitiva e uma experiência visual agradável.
+
+O projeto apresenta:
+
+* Galeria organizada de vídeos
+* Interface moderna e limpa
+* Navegação simples e intuitiva
+* Layout responsivo
+* Estrutura visual dinâmica
+
+## 🛠️ Tecnologias utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
+* Git & GitHub
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido para funcionar corretamente em:
+
+* 💻 Desktop
+* 📱 Smartphones
+* 📲 Tablets
+
+## ✨ Funcionalidades
+
+* Exibição organizada de vídeos
+* Navegação entre conteúdos
+* Layout moderno
+* Estrutura responsiva
+* Interface intuitiva
+
+## 🎯 Objetivos do projeto
+
+* Evoluir habilidades em front-end
+* Melhorar organização de layouts
+* Trabalhar exibição de mídia
+* Praticar responsividade
+* Desenvolver interfaces modernas
+
+## 🌐 Deploy
+
+Acesse o projeto online:
+
+👉 https://renannavarro016.github.io/html-css-copy/Desafios/009/
+
+## 📸 Preview
+
+<img width="100%" src="./imagens/preview.jpg">
+
+## 📂 Como executar o projeto
+
+```bash id="4y5hxa"
+# Clone o repositório
+git clone https://github.com/seuusuario/projeto-galeria-videos.git
+
+# Abra o index.html
+```
+
+## 👨‍💻 Desenvolvedor
+
+Desenvolvido por Renan Navarro.
+
+## 📌 Status
+
+✅ Projeto finalizado
